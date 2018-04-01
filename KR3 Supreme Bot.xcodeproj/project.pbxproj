@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160D95FC2071252F0077DA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D95FB2071252F0077DA5D /* AppDelegate.swift */; };
+		160D95FE2071252F0077DA5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D95FD2071252F0077DA5D /* ViewController.swift */; };
+		160D96012071252F0077DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D95FF2071252F0077DA5D /* Main.storyboard */; };
+		160D96032071252F0077DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160D96022071252F0077DA5D /* Assets.xcassets */; };
+		160D96062071252F0077DA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D96042071252F0077DA5D /* LaunchScreen.storyboard */; };
+		160D96112071252F0077DA5D /* KR3_Supreme_BotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D96102071252F0077DA5D /* KR3_Supreme_BotTests.swift */; };
+		160D961C2071252F0077DA5D /* KR3_Supreme_BotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D961B2071252F0077DA5D /* KR3_Supreme_BotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160D960D2071252F0077DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160D95F02071252F0077DA5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160D95F72071252F0077DA5D;
+			remoteInfo = "KR3 Supreme Bot";
+		};
+		160D96182071252F0077DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160D95F02071252F0077DA5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160D95F72071252F0077DA5D;
+			remoteInfo = "KR3 Supreme Bot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160D95F82071252F0077DA5D /* KR3 Supreme Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KR3 Supreme Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		160D95FB2071252F0077DA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		160D95FD2071252F0077DA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160D96002071252F0077DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		160D96022071252F0077DA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		160D96052071252F0077DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		160D96072071252F0077DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160D960C2071252F0077DA5D /* KR3 Supreme BotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KR3 Supreme BotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		160D96102071252F0077DA5D /* KR3_Supreme_BotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KR3_Supreme_BotTests.swift; sourceTree = "<group>"; };
+		160D96122071252F0077DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160D96172071252F0077DA5D /* KR3 Supreme BotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KR3 Supreme BotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		160D961B2071252F0077DA5D /* KR3_Supreme_BotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KR3_Supreme_BotUITests.swift; sourceTree = "<group>"; };
+		160D961D2071252F0077DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160D95F52071252F0077DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160D96092071252F0077DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160D96142071252F0077DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160D95EF2071252F0077DA5D = {
+			isa = PBXGroup;
+			children = (
+				160D95FA2071252F0077DA5D /* KR3 Supreme Bot */,
+				160D960F2071252F0077DA5D /* KR3 Supreme BotTests */,
+				160D961A2071252F0077DA5D /* KR3 Supreme BotUITests */,
+				160D95F92071252F0077DA5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160D95F92071252F0077DA5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160D95F82071252F0077DA5D /* KR3 Supreme Bot.app */,
+				160D960C2071252F0077DA5D /* KR3 Supreme BotTests.xctest */,
+				160D96172071252F0077DA5D /* KR3 Supreme BotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160D95FA2071252F0077DA5D /* KR3 Supreme Bot */ = {
+			isa = PBXGroup;
+			children = (
+				160D95FB2071252F0077DA5D /* AppDelegate.swift */,
+				160D95FD2071252F0077DA5D /* ViewController.swift */,
+				160D95FF2071252F0077DA5D /* Main.storyboard */,
+				160D96022071252F0077DA5D /* Assets.xcassets */,
+				160D96042071252F0077DA5D /* LaunchScreen.storyboard */,
+				160D96072071252F0077DA5D /* Info.plist */,
+			);
+			path = "KR3 Supreme Bot";
+			sourceTree = "<group>";
+		};
+		160D960F2071252F0077DA5D /* KR3 Supreme BotTests */ = {
+			isa = PBXGroup;
+			children = (
+				160D96102071252F0077DA5D /* KR3_Supreme_BotTests.swift */,
+				160D96122071252F0077DA5D /* Info.plist */,
+			);
+			path = "KR3 Supreme BotTests";
+			sourceTree = "<group>";
+		};
+		160D961A2071252F0077DA5D /* KR3 Supreme BotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				160D961B2071252F0077DA5D /* KR3_Supreme_BotUITests.swift */,
+				160D961D2071252F0077DA5D /* Info.plist */,
+			);
+			path = "KR3 Supreme BotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160D95F72071252F0077DA5D /* KR3 Supreme Bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160D96202071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme Bot" */;
+			buildPhases = (
+				160D95F42071252F0077DA5D /* Sources */,
+				160D95F52071252F0077DA5D /* Frameworks */,
+				160D95F62071252F0077DA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KR3 Supreme Bot";
+			productName = "KR3 Supreme Bot";
+			productReference = 160D95F82071252F0077DA5D /* KR3 Supreme Bot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160D960B2071252F0077DA5D /* KR3 Supreme BotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160D96232071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme BotTests" */;
+			buildPhases = (
+				160D96082071252F0077DA5D /* Sources */,
+				160D96092071252F0077DA5D /* Frameworks */,
+				160D960A2071252F0077DA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160D960E2071252F0077DA5D /* PBXTargetDependency */,
+			);
+			name = "KR3 Supreme BotTests";
+			productName = "KR3 Supreme BotTests";
+			productReference = 160D960C2071252F0077DA5D /* KR3 Supreme BotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		160D96162071252F0077DA5D /* KR3 Supreme BotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160D96262071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme BotUITests" */;
+			buildPhases = (
+				160D96132071252F0077DA5D /* Sources */,
+				160D96142071252F0077DA5D /* Frameworks */,
+				160D96152071252F0077DA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160D96192071252F0077DA5D /* PBXTargetDependency */,
+			);
+			name = "KR3 Supreme BotUITests";
+			productName = "KR3 Supreme BotUITests";
+			productReference = 160D96172071252F0077DA5D /* KR3 Supreme BotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160D95F02071252F0077DA5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = KR3ND31;
+				TargetAttributes = {
+					160D95F72071252F0077DA5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					160D960B2071252F0077DA5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 160D95F72071252F0077DA5D;
+					};
+					160D96162071252F0077DA5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 160D95F72071252F0077DA5D;
+					};
+				};
+			};
+			buildConfigurationList = 160D95F32071252F0077DA5D /* Build configuration list for PBXProject "KR3 Supreme Bot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160D95EF2071252F0077DA5D;
+			productRefGroup = 160D95F92071252F0077DA5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160D95F72071252F0077DA5D /* KR3 Supreme Bot */,
+				160D960B2071252F0077DA5D /* KR3 Supreme BotTests */,
+				160D96162071252F0077DA5D /* KR3 Supreme BotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160D95F62071252F0077DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160D96062071252F0077DA5D /* LaunchScreen.storyboard in Resources */,
+				160D96032071252F0077DA5D /* Assets.xcassets in Resources */,
+				160D96012071252F0077DA5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160D960A2071252F0077DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160D96152071252F0077DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160D95F42071252F0077DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160D95FE2071252F0077DA5D /* ViewController.swift in Sources */,
+				160D95FC2071252F0077DA5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160D96082071252F0077DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160D96112071252F0077DA5D /* KR3_Supreme_BotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160D96132071252F0077DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160D961C2071252F0077DA5D /* KR3_Supreme_BotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160D960E2071252F0077DA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160D95F72071252F0077DA5D /* KR3 Supreme Bot */;
+			targetProxy = 160D960D2071252F0077DA5D /* PBXContainerItemProxy */;
+		};
+		160D96192071252F0077DA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160D95F72071252F0077DA5D /* KR3 Supreme Bot */;
+			targetProxy = 160D96182071252F0077DA5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		160D95FF2071252F0077DA5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160D96002071252F0077DA5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		160D96042071252F0077DA5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160D96052071252F0077DA5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160D961E2071252F0077DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		160D961F2071252F0077DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160D96212071252F0077DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CXUPPKU4;
+				INFOPLIST_FILE = "KR3 Supreme Bot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-Bot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		160D96222071252F0077DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CXUPPKU4;
+				INFOPLIST_FILE = "KR3 Supreme Bot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-Bot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		160D96242071252F0077DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CXUPPKU4;
+				INFOPLIST_FILE = "KR3 Supreme BotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-BotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KR3 Supreme Bot.app/KR3 Supreme Bot";
+			};
+			name = Debug;
+		};
+		160D96252071252F0077DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CXUPPKU4;
+				INFOPLIST_FILE = "KR3 Supreme BotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-BotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KR3 Supreme Bot.app/KR3 Supreme Bot";
+			};
+			name = Release;
+		};
+		160D96272071252F0077DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CXUPPKU4;
+				INFOPLIST_FILE = "KR3 Supreme BotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-BotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KR3 Supreme Bot";
+			};
+			name = Debug;
+		};
+		160D96282071252F0077DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42CXUPPKU4;
+				INFOPLIST_FILE = "KR3 Supreme BotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-BotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KR3 Supreme Bot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160D95F32071252F0077DA5D /* Build configuration list for PBXProject "KR3 Supreme Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160D961E2071252F0077DA5D /* Debug */,
+				160D961F2071252F0077DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160D96202071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160D96212071252F0077DA5D /* Debug */,
+				160D96222071252F0077DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160D96232071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme BotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160D96242071252F0077DA5D /* Debug */,
+				160D96252071252F0077DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160D96262071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme BotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160D96272071252F0077DA5D /* Debug */,
+				160D96282071252F0077DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160D95F02071252F0077DA5D /* Project object */;
+}
