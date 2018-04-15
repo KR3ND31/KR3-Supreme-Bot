@@ -6,13 +6,14 @@
 //  Copyright © 2018 KR3ND31. All rights reserved.
 //
 
+import Foundation
 import UIKit
+import WebKit
 
-class ViewController: UIViewController {
-
+class MainTabController: UITabBarController, WKUIDelegate, WKNavigationDelegate{
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

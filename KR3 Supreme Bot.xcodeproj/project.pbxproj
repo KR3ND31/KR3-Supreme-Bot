@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05ED79C7F3C65DDD17F59229 /* Pods_KR3_Supreme_Bot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4F13276E31ACDDBE9AAF7 /* Pods_KR3_Supreme_Bot.framework */; };
+		160D5A7C207144120018E439 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D5A7B207144120018E439 /* BrowserViewController.swift */; };
+		160D5A7E207153EF0018E439 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D5A7D207153EF0018E439 /* OptionViewController.swift */; };
 		160D95FC2071252F0077DA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D95FB2071252F0077DA5D /* AppDelegate.swift */; };
-		160D95FE2071252F0077DA5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D95FD2071252F0077DA5D /* ViewController.swift */; };
+		160D95FE2071252F0077DA5D /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D95FD2071252F0077DA5D /* MainTabController.swift */; };
 		160D96012071252F0077DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D95FF2071252F0077DA5D /* Main.storyboard */; };
 		160D96032071252F0077DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160D96022071252F0077DA5D /* Assets.xcassets */; };
 		160D96062071252F0077DA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160D96042071252F0077DA5D /* LaunchScreen.storyboard */; };
 		160D96112071252F0077DA5D /* KR3_Supreme_BotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D96102071252F0077DA5D /* KR3_Supreme_BotTests.swift */; };
 		160D961C2071252F0077DA5D /* KR3_Supreme_BotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D961B2071252F0077DA5D /* KR3_Supreme_BotUITests.swift */; };
+		16749F202073ACB400EFA194 /* ItemSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16749F1F2073ACB400EFA194 /* ItemSettingsViewController.swift */; };
+		48347ACA6A14CD02BB1A5F21 /* Pods_KR3_Supreme_BotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E16FE3D669F058BD891618 /* Pods_KR3_Supreme_BotTests.framework */; };
+		64B5AC2C3899FAB75D74A084 /* Pods_KR3_Supreme_BotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25382F59FB09591017E5250B /* Pods_KR3_Supreme_BotUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160D5A7B207144120018E439 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		160D5A7D207153EF0018E439 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
 		160D95F82071252F0077DA5D /* KR3 Supreme Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KR3 Supreme Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160D95FB2071252F0077DA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		160D95FD2071252F0077DA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160D95FD2071252F0077DA5D /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		160D96002071252F0077DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		160D96022071252F0077DA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160D96052071252F0077DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		160D96172071252F0077DA5D /* KR3 Supreme BotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KR3 Supreme BotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160D961B2071252F0077DA5D /* KR3_Supreme_BotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KR3_Supreme_BotUITests.swift; sourceTree = "<group>"; };
 		160D961D2071252F0077DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16749F1F2073ACB400EFA194 /* ItemSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSettingsViewController.swift; sourceTree = "<group>"; };
+		233BB1D47AF5559C072A2402 /* Pods-KR3 Supreme BotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KR3 Supreme BotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25382F59FB09591017E5250B /* Pods_KR3_Supreme_BotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KR3_Supreme_BotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA4F13276E31ACDDBE9AAF7 /* Pods_KR3_Supreme_Bot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KR3_Supreme_Bot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E16FE3D669F058BD891618 /* Pods_KR3_Supreme_BotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KR3_Supreme_BotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F9981676B2F14874CE665 /* Pods-KR3 Supreme BotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KR3 Supreme BotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests.release.xcconfig"; sourceTree = "<group>"; };
+		E72C21889E98594CC08AB7C5 /* Pods-KR3 Supreme BotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KR3 Supreme BotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F12ED5378DA8DC5D74822163 /* Pods-KR3 Supreme Bot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KR3 Supreme Bot.release.xcconfig"; path = "Pods/Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot.release.xcconfig"; sourceTree = "<group>"; };
+		F581E95C59AD07EC9248295F /* Pods-KR3 Supreme BotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KR3 Supreme BotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D6945159D110603AF0DE24 /* Pods-KR3 Supreme Bot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KR3 Supreme Bot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05ED79C7F3C65DDD17F59229 /* Pods_KR3_Supreme_Bot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48347ACA6A14CD02BB1A5F21 /* Pods_KR3_Supreme_BotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B5AC2C3899FAB75D74A084 /* Pods_KR3_Supreme_BotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				160D960F2071252F0077DA5D /* KR3 Supreme BotTests */,
 				160D961A2071252F0077DA5D /* KR3 Supreme BotUITests */,
 				160D95F92071252F0077DA5D /* Products */,
+				B812C1E16DD47AA9FBFCAA85 /* Pods */,
+				9DCF8A325F55C0A2710296E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				160D95FB2071252F0077DA5D /* AppDelegate.swift */,
-				160D95FD2071252F0077DA5D /* ViewController.swift */,
+				160D5A7D207153EF0018E439 /* OptionViewController.swift */,
+				160D95FD2071252F0077DA5D /* MainTabController.swift */,
+				16749F1F2073ACB400EFA194 /* ItemSettingsViewController.swift */,
+				160D5A7B207144120018E439 /* BrowserViewController.swift */,
 				160D95FF2071252F0077DA5D /* Main.storyboard */,
 				160D96022071252F0077DA5D /* Assets.xcassets */,
 				160D96042071252F0077DA5D /* LaunchScreen.storyboard */,
@@ -125,6 +151,29 @@
 			path = "KR3 Supreme BotUITests";
 			sourceTree = "<group>";
 		};
+		9DCF8A325F55C0A2710296E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4F13276E31ACDDBE9AAF7 /* Pods_KR3_Supreme_Bot.framework */,
+				B6E16FE3D669F058BD891618 /* Pods_KR3_Supreme_BotTests.framework */,
+				25382F59FB09591017E5250B /* Pods_KR3_Supreme_BotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B812C1E16DD47AA9FBFCAA85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6945159D110603AF0DE24 /* Pods-KR3 Supreme Bot.debug.xcconfig */,
+				F12ED5378DA8DC5D74822163 /* Pods-KR3 Supreme Bot.release.xcconfig */,
+				233BB1D47AF5559C072A2402 /* Pods-KR3 Supreme BotTests.debug.xcconfig */,
+				CC2F9981676B2F14874CE665 /* Pods-KR3 Supreme BotTests.release.xcconfig */,
+				F581E95C59AD07EC9248295F /* Pods-KR3 Supreme BotUITests.debug.xcconfig */,
+				E72C21889E98594CC08AB7C5 /* Pods-KR3 Supreme BotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160D96202071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme Bot" */;
 			buildPhases = (
+				05931E5A698556DDAF23E0AD /* [CP] Check Pods Manifest.lock */,
 				160D95F42071252F0077DA5D /* Sources */,
 				160D95F52071252F0077DA5D /* Frameworks */,
 				160D95F62071252F0077DA5D /* Resources */,
+				0898FA508548BF8F77A17C87 /* [CP] Embed Pods Frameworks */,
+				EFA31CA4C3983D92FB977622 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160D96232071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme BotTests" */;
 			buildPhases = (
+				632EB0D332AA1C7612EB17CA /* [CP] Check Pods Manifest.lock */,
 				160D96082071252F0077DA5D /* Sources */,
 				160D96092071252F0077DA5D /* Frameworks */,
 				160D960A2071252F0077DA5D /* Resources */,
+				BD934D6A8B344B0B372CEF22 /* [CP] Embed Pods Frameworks */,
+				1112FAC6D09C188C1B85D177 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160D96262071252F0077DA5D /* Build configuration list for PBXNativeTarget "KR3 Supreme BotUITests" */;
 			buildPhases = (
+				1945A2B21AC1DB5CE92988B8 /* [CP] Check Pods Manifest.lock */,
 				160D96132071252F0077DA5D /* Sources */,
 				160D96142071252F0077DA5D /* Frameworks */,
 				160D96152071252F0077DA5D /* Resources */,
+				76839372E061AA8E92A9C9DF /* [CP] Embed Pods Frameworks */,
+				FAE3310213D20D3D1606FDE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +312,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05931E5A698556DDAF23E0AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KR3 Supreme Bot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0898FA508548BF8F77A17C87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RSSelectionMenu/RSSelectionMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSSelectionMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1112FAC6D09C188C1B85D177 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1945A2B21AC1DB5CE92988B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KR3 Supreme BotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632EB0D332AA1C7612EB17CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KR3 Supreme BotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76839372E061AA8E92A9C9DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RSSelectionMenu/RSSelectionMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSSelectionMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD934D6A8B344B0B372CEF22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RSSelectionMenu/RSSelectionMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSSelectionMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA31CA4C3983D92FB977622 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE3310213D20D3D1606FDE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		160D95F42071252F0077DA5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160D95FE2071252F0077DA5D /* ViewController.swift in Sources */,
+				160D95FE2071252F0077DA5D /* MainTabController.swift in Sources */,
+				160D5A7E207153EF0018E439 /* OptionViewController.swift in Sources */,
+				160D5A7C207144120018E439 /* BrowserViewController.swift in Sources */,
+				16749F202073ACB400EFA194 /* ItemSettingsViewController.swift in Sources */,
 				160D95FC2071252F0077DA5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +647,13 @@
 		};
 		160D96212071252F0077DA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D6945159D110603AF0DE24 /* Pods-KR3 Supreme Bot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42CXUPPKU4;
 				INFOPLIST_FILE = "KR3 Supreme Bot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-Bot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +664,13 @@
 		};
 		160D96222071252F0077DA5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12ED5378DA8DC5D74822163 /* Pods-KR3 Supreme Bot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42CXUPPKU4;
 				INFOPLIST_FILE = "KR3 Supreme Bot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.kr3nd31.KR3-Supreme-Bot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +681,7 @@
 		};
 		160D96242071252F0077DA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233BB1D47AF5559C072A2402 /* Pods-KR3 Supreme BotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +699,7 @@
 		};
 		160D96252071252F0077DA5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2F9981676B2F14874CE665 /* Pods-KR3 Supreme BotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +717,7 @@
 		};
 		160D96272071252F0077DA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F581E95C59AD07EC9248295F /* Pods-KR3 Supreme BotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +734,7 @@
 		};
 		160D96282071252F0077DA5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72C21889E98594CC08AB7C5 /* Pods-KR3 Supreme BotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

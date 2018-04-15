@@ -1,0 +1,15 @@
+PODS:
+  - RSSelectionMenu (3.3)
+  - SwiftSoup (1.7.1)
+
+DEPENDENCIES:
+  - RSSelectionMenu
+  - SwiftSoup
+
+SPEC CHECKSUMS:
+  RSSelectionMenu: 5b75ea1812295ac826e5b444ed91768bda00f3f0
+  SwiftSoup: 277f7ef548826e0ca7603a06b30d4a5df3ee0587
+
+PODFILE CHECKSUM: 0db0c48cdc4bfcc350c775d2a60422429db7255a
+
+COCOAPODS: 1.4.0
