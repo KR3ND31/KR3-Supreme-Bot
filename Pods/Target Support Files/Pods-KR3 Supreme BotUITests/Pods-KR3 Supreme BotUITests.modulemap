@@ -1,0 +1,6 @@
+framework module Pods_KR3_Supreme_BotUITests {
+  umbrella header "Pods-KR3 Supreme BotUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D7C3F7CBFED410872BDE39668B7C2B /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61C28D567C36E5FB9317A4EDD1D03FC /* NodeTraversor.swift */; };
+		0459AD92E7900D7CC1E34BB97F99DE50 /* RSSelectionMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FBF5E96578C1435F1AD97FDB0324CA /* RSSelectionMenu-dummy.m */; };
+		0527D5C14BF742E1D6783B400A3765ED /* Pods-KR3 Supreme BotUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E863895DCAFE1ED3CB3F078B031266 /* Pods-KR3 Supreme BotUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0637C9879E18D489A4A2DADAAF6F9DBD /* ParseErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04E0B56C826A46E7479EF4F0EB664 /* ParseErrorList.swift */; };
+		0B10E8B75B73F182F9EFECC702BC1BD5 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217555FA2CFDD7109A9D00D8404AF3EC /* QueryParser.swift */; };
+		0E24753FE2762774ABCCC0BF04BFA87A /* Tokeniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735666E378ECCDDE8EE874C4BA618A65 /* Tokeniser.swift */; };
+		0FE8321F5BB4C9D59483FA2E1B9EA54A /* SwiftSoup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF716DCE6511EDCE2D682558472208 /* SwiftSoup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A6FEAFBD53229AF288FC19A7536DE3 /* SwiftSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF3AE976D4B64ECCD70A6B4A4C37BC /* SwiftSoup-dummy.m */; };
+		195F7CE17D3A9D3FD03E02E05BF575C7 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96F63C3EE8E07972B2596D4C3DD6E1 /* Token.swift */; };
+		1A007E6C800EFF3EA0251BF9D41A2811 /* SimpleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E2D33AE90358B04EEC3326F5F063C /* SimpleDictionary.swift */; };
+		1A5AE65DD566CF28E7224CAAB3BDB30D /* NodeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E71FFBAF0F16F2A08954E228182DD /* NodeVisitor.swift */; };
+		1F08F03083AD948FC4F12122F36AD926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1FEEC2A925A3CEB0CE9794F4986E384B /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85DBBCC333C32FA1A43EE44BB8E8512 /* Document.swift */; };
+		20F26DFBE25F6475B4FC292586D91F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		26BA8E8B8BC085EDC49BEEBABBBDB5F4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E66C2145E868CD97C69FC881B5CE3A /* Comment.swift */; };
+		273F8162B042C4BFFDBFEF03A8630037 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50701AEF897DBCD98C119BC994BF57F1 /* Attributes.swift */; };
+		2FB1770E39CFE668A5A716ED44E8E6EC /* RSFirstRowSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958E5D752FBF48F9663D93FEE0B05438 /* RSFirstRowSelection.swift */; };
+		34C761540526DE0F5AC83D32CE2F9D19 /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908FE973B4ED3A8C4660E82410054D1 /* CharacterExt.swift */; };
+		34FCAEE1F9A24BFF1BDDED5FD010486A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		36CE8A19AEA3EE60769B69B4CD0836AA /* FormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA366D12D01F86C51D31274C938F6F /* FormElement.swift */; };
+		3A84F12B3703D88B8969D9A02EAD34F5 /* Evaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C919A0864B0DDE5F737FDD396E1A4F /* Evaluator.swift */; };
+		40A9CEA96DEDB8690D58740020403835 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E427969F5D6F34AB8A442DA12FFF40 /* Connection.swift */; };
+		44CF14C250D358C6A3CE0995CBF37B6B /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC899C6A3C82C012E212C17328ADEB82 /* Collector.swift */; };
+		44DB7CF5767819FF71E9E89DD91BF873 /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9C5F45B535B87C192510C735FAEF33 /* ParseError.swift */; };
+		5118569F62D67EA0CE8E9B648B9AC279 /* StructuralEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B4DFA64BD12BEEA1666E281722DAED /* StructuralEvaluator.swift */; };
+		5314D4713CA02D4AECB10C9431DE48A5 /* TokenQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E21261205DB5664947042BDB0E14C0 /* TokenQueue.swift */; };
+		60190E467A6AFCD2F9768D6CEE0FE128 /* CombiningEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FA958F7D3A0618FB2A795A69BBD1F /* CombiningEvaluator.swift */; };
+		61D217B03611CE728B0ACDBFA2EF0672 /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BDCB90CAE3001BBFBFB2104844930 /* CharacterReader.swift */; };
+		691616A9A346375C740268D33C8C8E88 /* UnicodeScalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C7178282F3B04E2EAE6125E9B22B71 /* UnicodeScalar.swift */; };
+		6C531A91ECB6C954192773C24431EA5D /* HtmlTreeBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD2710DA37037B903357DE4A5AB7D1 /* HtmlTreeBuilderState.swift */; };
+		6D95736644E3242D346C570AFFE510BA /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8916BA747C1A217D1C3F947748F4BD /* Validate.swift */; };
+		71E08537A5AFA7441854AB2CAFB3E70E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9393E61A60623238893A7B85CABC9 /* Parser.swift */; };
+		73310436FB23D79C724CE5E44326A720 /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4E29679BA0528E01EF0F0C4F29EFC /* TreeBuilder.swift */; };
+		7BC6BFAC6F45D978E6062024C809BDE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5290858783EBDE7CA091B9FDC22262 /* Constants.swift */; };
+		80E1E63E09EDCCEE08CCC76643C05CD3 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212D0B667D3EE6EB3A1FBA0EC35FA298 /* Attribute.swift */; };
+		8121420E11C9AA29E8CAC8FFD3267081 /* XmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A643611D0749867C47AB0F908182650 /* XmlTreeBuilder.swift */; };
+		8354B5BEC38F98B2F53F73B4B1D4CCB3 /* Pods-KR3 Supreme Bot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EBC8865FE51E9EC4F105896BA802F7 /* Pods-KR3 Supreme Bot-dummy.m */; };
+		83D3D4676BEED6ECD06913D2766E4620 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CCFECEFA711FBA728F57FE76A1D7D3 /* String.swift */; };
+		85074CFC2B34E576AC014CBE96BB06F7 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90638BABF4EF7607F6A3C37D53DB59 /* NSObjectExtension.swift */; };
+		86C0CBFF0AB3FC5298EFAC5355EF04A1 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215AA6A878820487883FF447C884F304 /* Selector.swift */; };
+		8AED7AE2DD8B0DC3C93877FD410F6A42 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15907C61166DB404169A6435478D08F4 /* Tag.swift */; };
+		8B6DD566D72163F2D3FC7824FA473BA1 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DBBAAA564058999C2F1721B01F255 /* Pattern.swift */; };
+		8B6E9FA632C48252CD100C698E0F60A1 /* RSSelectionMenuExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA192F458DB1B6457F1FFC7A03AED4BF /* RSSelectionMenuExtensions.swift */; };
+		8EFB84F7844CC992769FF481C4C848C1 /* TokeniserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8AF083482E266EEA5711FB7E55A2E /* TokeniserState.swift */; };
+		93FFC437BA668E6ADDA41062EA8834B6 /* Pods-KR3 Supreme BotUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F02D5D28BA1AB872AA2D726EC02938 /* Pods-KR3 Supreme BotUITests-dummy.m */; };
+		9477CFAD0DAE9B0542C13DBA3E9FA5CE /* BooleanAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874940AFB0444A3CC2AC71960ED4F12B /* BooleanAttribute.swift */; };
+		971ADF08159B4A86BB4A0859B68F597B /* Pods-KR3 Supreme BotTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A7B74DBD5D0353123956E88FB64352 /* Pods-KR3 Supreme BotTests-dummy.m */; };
+		9898C58F2BC61152C27615166586B22B /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1EDBBCF6FDC6C631924C6B03F96457 /* Elements.swift */; };
+		A132823F97BDBEAB8AEA528B60A66B6E /* RSSelectionMenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF01C86ACB38B51382D75E5425D79E2 /* RSSelectionMenuDataSource.swift */; };
+		A5607B1EB27629E01570526EBADC5F61 /* HttpStatusException.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31515F3649214B70E24AE62C589A2B5 /* HttpStatusException.swift */; };
+		A79DA2B242FD7022F95FB16BD142A0C2 /* RSSelectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8D00433C68C5B49ED5FA105B52BE2 /* RSSelectionTableView.swift */; };
+		AAD3936E064FEFD87166BC47D2A990B2 /* Pods-KR3 Supreme Bot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB6FC05B0A52267B5C88921F4C27DE3 /* Pods-KR3 Supreme Bot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01C7BBBBE70540464CCF37047A8E84C /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A9048BF37A2B8C3806FBD850D49D29 /* Entities.swift */; };
+		B148E4ECD46C81FB97F301BDB4D4BB3C /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4B6A64EE0A1D3AD50F9C1B064AF31 /* Exception.swift */; };
+		B4F834CC92C3F49AF13B5558E8F97174 /* Pods-KR3 Supreme BotTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6C01BBA173586C052879959DCDE6F5 /* Pods-KR3 Supreme BotTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B0F12B629B2071060FDB4BAA888A49 /* SerializationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571BE9CA1E867CCCD30BB0BF7787328 /* SerializationException.swift */; };
+		B8BA8FB966A471936D35D5CA94BF4073 /* SwiftSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9E239DB2E377C476B19436CC52035 /* SwiftSoup.swift */; };
+		BDAFD02C6F01A3D2374A4ADB287D8224 /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227FD5BE66C5CC51C00E13F96439F918 /* ArrayExt.swift */; };
+		BEC31BA3212EC92703D9BBCE28F9F6E6 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7810B5D19465566D5393ED98C1F3AA /* StringUtil.swift */; };
+		C0031426A55B5601792A9F74E5CA68BC /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2445B0D95CCFD9B252DA15F875C5A74E /* OrderedSet.swift */; };
+		C42877B862F3E2CA7799892A90069AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF2586626F7DA2C82C7359AC14CDF0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF8555431738BD333C04BCCBA304E0E1 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2001388E9728549F33B094CA664F63A /* Node.swift */; };
+		CFD636D24842C44F9DC26E492494D045 /* RSSelectionMenuSearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7206E7353DA4C4566CF962B28CC6706 /* RSSelectionMenuSearchDelegate.swift */; };
+		D8EF33E3CD5F829882037034CB534463 /* XmlDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D7BAE9D947A5530CB8229B8D54818 /* XmlDeclaration.swift */; };
+		DF3B9AE5540A096216D588BE5034EC54 /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B8C897B600A9872C77534B6D60CA7 /* TextNode.swift */; };
+		E49FECFA2FFC02162F01730FA1664162 /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152026F39CD9D2DF01980DA1D8A010CC /* StringBuilder.swift */; };
+		E57A0617CDBFC24426259EAF50A195AA /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B80D09E6F4251F773314886E2CCB56 /* DocumentType.swift */; };
+		E6424F7C15529BA5DB299DE5897B2031 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D12E5B1BC46AFB61928355F30BEB1 /* Element.swift */; };
+		E8CCEAB80E225075EEA1E986C0D4A070 /* RSSelectionMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F884D928DF5834B3EC9A638CB988FFFE /* RSSelectionMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D2D7F9D422DE7907A21F1BAAF0DF0A /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6942F28DD3AF4FA4259E9A4B3A6F18 /* OrderedDictionary.swift */; };
+		E96229CF4D78225C485774AD54A2D81E /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69978A0C2996497BAB53B65534A458F2 /* DataUtil.swift */; };
+		EB011FC08F4A6F458CFD8C81D6B767A7 /* RSSelectionMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B3D1A3F9AF4650FEDFD8C1228C802B /* RSSelectionMenuController.swift */; };
+		EBCCDFBF82B275EA0461643E076FF058 /* ParseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D89701D91DC5FE5991B1121CFADBCD5 /* ParseSettings.swift */; };
+		EC89C0EF10462B198804A02E636ECA9D /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6C27F65C1029A6F50CC2D48A3D153 /* StreamReader.swift */; };
+		F3FE711526F2D74C28BD81A348229DCB /* HtmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94AF778626D1BE27CFBB95F5A2E4A9 /* HtmlTreeBuilder.swift */; };
+		F557858DBCCFB9A485981023DAB10828 /* DataNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF5CD3D04A94167867A46B6D78195F /* DataNode.swift */; };
+		F63BE3344B588FE21E24E03C1E995B8B /* RSSelectionMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCA24D5839A0479425BA0814F4C3BE /* RSSelectionMenuDelegate.swift */; };
+		FB507B324F53C4BC925DDA9FD8DDF1F7 /* Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19B9491702EF48C294F4EB6FC97498 /* Cleaner.swift */; };
+		FE496A4D540572502B33D13712FF6C10 /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66915F2523052C2840D1B5E3012F146 /* Whitelist.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		318DA3E4FFE625F891EDD43BDA79728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DBFB5435150B5562946360EDF541B0;
+			remoteInfo = RSSelectionMenu;
+		};
+		41895E2AD7E7D23F69CA6A16BC1037DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DBFB5435150B5562946360EDF541B0;
+			remoteInfo = RSSelectionMenu;
+		};
+		7D55D907942429327D5B91E0FD4F5974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DBFB5435150B5562946360EDF541B0;
+			remoteInfo = RSSelectionMenu;
+		};
+		A4ED16C7E2FB114CC4C164EE3C837A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723A475C6C1459837745B88A26B4BA4E;
+			remoteInfo = SwiftSoup;
+		};
+		D002272A4C9D87365FC08EEF9AD71074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723A475C6C1459837745B88A26B4BA4E;
+			remoteInfo = SwiftSoup;
+		};
+		DD8F6F35DA0505EB3A8CAB55101E2839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723A475C6C1459837745B88A26B4BA4E;
+			remoteInfo = SwiftSoup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048009490557A7196A2E07B3BCD88BFC /* Pods-KR3 Supreme BotTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KR3 Supreme BotTests.modulemap"; sourceTree = "<group>"; };
+		04AD2710DA37037B903357DE4A5AB7D1 /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
+		054E71FFBAF0F16F2A08954E228182DD /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
+		0908FE973B4ED3A8C4660E82410054D1 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
+		0BBF99996418230AD0101A149CFC55C3 /* Pods_KR3_Supreme_BotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KR3_Supreme_BotUITests.framework; path = "Pods-KR3 Supreme BotUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3B7E5ACBD244652A58A914A8DB7152 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5B8C897B600A9872C77534B6D60CA7 /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
+		11840EBE61135787AF1FF885FD600BC7 /* Pods-KR3 Supreme Bot-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KR3 Supreme Bot-resources.sh"; sourceTree = "<group>"; };
+		152026F39CD9D2DF01980DA1D8A010CC /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
+		15907C61166DB404169A6435478D08F4 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
+		184DEABA6BF2F52252570A757A66D99C /* RSSelectionMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSSelectionMenu.xcconfig; sourceTree = "<group>"; };
+		1B6C01BBA173586C052879959DCDE6F5 /* Pods-KR3 Supreme BotTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KR3 Supreme BotTests-umbrella.h"; sourceTree = "<group>"; };
+		1BCE68B14B4FB9DFB285A4BDEB0E88DF /* Pods-KR3 Supreme Bot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KR3 Supreme Bot-frameworks.sh"; sourceTree = "<group>"; };
+		212D0B667D3EE6EB3A1FBA0EC35FA298 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
+		215AA6A878820487883FF447C884F304 /* Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = Sources/Selector.swift; sourceTree = "<group>"; };
+		217555FA2CFDD7109A9D00D8404AF3EC /* QueryParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryParser.swift; path = Sources/QueryParser.swift; sourceTree = "<group>"; };
+		227FD5BE66C5CC51C00E13F96439F918 /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
+		23A9048BF37A2B8C3806FBD850D49D29 /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
+		23FBF5E96578C1435F1AD97FDB0324CA /* RSSelectionMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSSelectionMenu-dummy.m"; sourceTree = "<group>"; };
+		2445B0D95CCFD9B252DA15F875C5A74E /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
+		26B6C27F65C1029A6F50CC2D48A3D153 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
+		27A8D00433C68C5B49ED5FA105B52BE2 /* RSSelectionTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSelectionTableView.swift; path = RSSelectionMenu/RSSelectionMenu/Source/RSSelectionTableView.swift; sourceTree = "<group>"; };
+		2D96F63C3EE8E07972B2596D4C3DD6E1 /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
+		2F233763EF8F01634126FC5018822482 /* RSSelectionMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSSelectionMenu.modulemap; sourceTree = "<group>"; };
+		30DBD65B85C30E967CCAC980903FF0AD /* Pods-KR3 Supreme BotUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KR3 Supreme BotUITests-resources.sh"; sourceTree = "<group>"; };
+		32BC25A85823D4E40A3A92049C6918E2 /* Pods-KR3 Supreme Bot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KR3 Supreme Bot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35B3D1A3F9AF4650FEDFD8C1228C802B /* RSSelectionMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSelectionMenuController.swift; path = RSSelectionMenu/RSSelectionMenu/Source/RSSelectionMenuController.swift; sourceTree = "<group>"; };
+		3A643611D0749867C47AB0F908182650 /* XmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTreeBuilder.swift; path = Sources/XmlTreeBuilder.swift; sourceTree = "<group>"; };
+		3BC77DD0909ADCC7F9A80E598D1EB1E4 /* Pods-KR3 Supreme Bot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KR3 Supreme Bot.release.xcconfig"; sourceTree = "<group>"; };
+		3BE4E7EDDCA3B3CBB28EB1F627F16B19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCCA24D5839A0479425BA0814F4C3BE /* RSSelectionMenuDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSelectionMenuDelegate.swift; path = RSSelectionMenu/RSSelectionMenu/Source/RSSelectionMenuDelegate.swift; sourceTree = "<group>"; };
+		3E28E90837ED543CC5B53FBC26DEC2F0 /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
+		463DBBAAA564058999C2F1721B01F255 /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
+		47807026AC7340265BC39665B8FAE022 /* Pods-KR3 Supreme BotTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KR3 Supreme BotTests-frameworks.sh"; sourceTree = "<group>"; };
+		48624AE942C5DC992ED4367A81CC88BF /* Pods-KR3 Supreme BotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KR3 Supreme BotTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F6942F28DD3AF4FA4259E9A4B3A6F18 /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
+		50701AEF897DBCD98C119BC994BF57F1 /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Attributes.swift; sourceTree = "<group>"; };
+		54CCFECEFA711FBA728F57FE76A1D7D3 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
+		54E66C2145E868CD97C69FC881B5CE3A /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
+		55A9E239DB2E377C476B19436CC52035 /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
+		57B4B6A64EE0A1D3AD50F9C1B064AF31 /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = Sources/Exception.swift; sourceTree = "<group>"; };
+		58B80D09E6F4251F773314886E2CCB56 /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
+		59807502C9DC3493C0293E57730A6C6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1EDBBCF6FDC6C631924C6B03F96457 /* Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Elements.swift; path = Sources/Elements.swift; sourceTree = "<group>"; };
+		60E21261205DB5664947042BDB0E14C0 /* TokenQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenQueue.swift; path = Sources/TokenQueue.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69978A0C2996497BAB53B65534A458F2 /* DataUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataUtil.swift; path = Sources/DataUtil.swift; sourceTree = "<group>"; };
+		6ACF3AE976D4B64ECCD70A6B4A4C37BC /* SwiftSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSoup-dummy.m"; sourceTree = "<group>"; };
+		6D89701D91DC5FE5991B1121CFADBCD5 /* ParseSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseSettings.swift; path = Sources/ParseSettings.swift; sourceTree = "<group>"; };
+		735666E378ECCDDE8EE874C4BA618A65 /* Tokeniser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokeniser.swift; path = Sources/Tokeniser.swift; sourceTree = "<group>"; };
+		73EBC8865FE51E9EC4F105896BA802F7 /* Pods-KR3 Supreme Bot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KR3 Supreme Bot-dummy.m"; sourceTree = "<group>"; };
+		74E863895DCAFE1ED3CB3F078B031266 /* Pods-KR3 Supreme BotUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KR3 Supreme BotUITests-umbrella.h"; sourceTree = "<group>"; };
+		7C5290858783EBDE7CA091B9FDC22262 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = RSSelectionMenu/RSSelectionMenu/Utilities/Constants.swift; sourceTree = "<group>"; };
+		7EF01C86ACB38B51382D75E5425D79E2 /* RSSelectionMenuDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSelectionMenuDataSource.swift; path = RSSelectionMenu/RSSelectionMenu/Source/RSSelectionMenuDataSource.swift; sourceTree = "<group>"; };
+		82386E777A4F07B9F12C0DB833F70C39 /* Pods-KR3 Supreme BotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KR3 Supreme BotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86CC749A11F064DF6F935C32E1A21892 /* Pods-KR3 Supreme BotTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KR3 Supreme BotTests-resources.sh"; sourceTree = "<group>"; };
+		874940AFB0444A3CC2AC71960ED4F12B /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
+		88855B19815DBFBF0C9D87900543C1AF /* Pods-KR3 Supreme BotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KR3 Supreme BotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88936E7C14F8F38D52B7BB76319761FC /* Pods-KR3 Supreme Bot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KR3 Supreme Bot.modulemap"; sourceTree = "<group>"; };
+		8BA9393E61A60623238893A7B85CABC9 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
+		8C7810B5D19465566D5393ED98C1F3AA /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
+		8D94AF778626D1BE27CFBB95F5A2E4A9 /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
+		8D9BDCB90CAE3001BBFBFB2104844930 /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
+		8E1180E99251918F228634557EF0B811 /* Pods-KR3 Supreme BotTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KR3 Supreme BotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E8916BA747C1A217D1C3F947748F4BD /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
+		903925036EEC029EC255710AE7E253B2 /* Pods-KR3 Supreme BotUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KR3 Supreme BotUITests-frameworks.sh"; sourceTree = "<group>"; };
+		910E2D33AE90358B04EEC3326F5F063C /* SimpleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleDictionary.swift; path = Sources/SimpleDictionary.swift; sourceTree = "<group>"; };
+		92B3210459A74B008B74A4C6E5B1571D /* Pods-KR3 Supreme BotUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KR3 Supreme BotUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948D7BAE9D947A5530CB8229B8D54818 /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
+		958E5D752FBF48F9663D93FEE0B05438 /* RSFirstRowSelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFirstRowSelection.swift; path = RSSelectionMenu/RSSelectionMenu/Source/RSFirstRowSelection.swift; sourceTree = "<group>"; };
+		95D2F22D251E1C24DEF1EC5A4AA9ED8C /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
+		96351465E11BB3ABE0A631CC102EEBAD /* Pods-KR3 Supreme Bot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KR3 Supreme Bot.debug.xcconfig"; sourceTree = "<group>"; };
+		9D817629951B660B8279047F0554EB40 /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE4E29679BA0528E01EF0F0C4F29EFC /* TreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeBuilder.swift; path = Sources/TreeBuilder.swift; sourceTree = "<group>"; };
+		A31515F3649214B70E24AE62C589A2B5 /* HttpStatusException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpStatusException.swift; path = Sources/HttpStatusException.swift; sourceTree = "<group>"; };
+		A3A7B74DBD5D0353123956E88FB64352 /* Pods-KR3 Supreme BotTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KR3 Supreme BotTests-dummy.m"; sourceTree = "<group>"; };
+		A3FF716DCE6511EDCE2D682558472208 /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
+		A4B4DFA64BD12BEEA1666E281722DAED /* StructuralEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StructuralEvaluator.swift; path = Sources/StructuralEvaluator.swift; sourceTree = "<group>"; };
+		A4B87A5B9A0D0F3F43441D074994A702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A571BE9CA1E867CCCD30BB0BF7787328 /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
+		A61C28D567C36E5FB9317A4EDD1D03FC /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
+		A66915F2523052C2840D1B5E3012F146 /* Whitelist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whitelist.swift; path = Sources/Whitelist.swift; sourceTree = "<group>"; };
+		AA90638BABF4EF7607F6A3C37D53DB59 /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtension.swift; path = RSSelectionMenu/RSSelectionMenu/Utilities/NSObjectExtension.swift; sourceTree = "<group>"; };
+		AC899C6A3C82C012E212C17328ADEB82 /* Collector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collector.swift; path = Sources/Collector.swift; sourceTree = "<group>"; };
+		B4E8AF083482E266EEA5711FB7E55A2E /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
+		B5F02D5D28BA1AB872AA2D726EC02938 /* Pods-KR3 Supreme BotUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KR3 Supreme BotUITests-dummy.m"; sourceTree = "<group>"; };
+		B9C7178282F3B04E2EAE6125E9B22B71 /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
+		B9FCD5CB3692054C11957B5841980DDB /* SwiftSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.xcconfig; sourceTree = "<group>"; };
+		C0E427969F5D6F34AB8A442DA12FFF40 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/Connection.swift; sourceTree = "<group>"; };
+		C4D9F72E307C61EC57C9F87781BC5C3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92E5ACD0EF6C83FA1AE2AD435399F04 /* RSSelectionMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSSelectionMenu.framework; path = RSSelectionMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB6FC05B0A52267B5C88921F4C27DE3 /* Pods-KR3 Supreme Bot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KR3 Supreme Bot-umbrella.h"; sourceTree = "<group>"; };
+		D0C04E0B56C826A46E7479EF4F0EB664 /* ParseErrorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseErrorList.swift; path = Sources/ParseErrorList.swift; sourceTree = "<group>"; };
+		D1C919A0864B0DDE5F737FDD396E1A4F /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
+		D43D12E5B1BC46AFB61928355F30BEB1 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		D80FA958F7D3A0618FB2A795A69BBD1F /* CombiningEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombiningEvaluator.swift; path = Sources/CombiningEvaluator.swift; sourceTree = "<group>"; };
+		D85DBBCC333C32FA1A43EE44BB8E8512 /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		D911326E37708740878B49F60D70B2F8 /* RSSelectionMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSelectionMenu-prefix.pch"; sourceTree = "<group>"; };
+		DC343C03D74A476E2C189543403833B7 /* Pods-KR3 Supreme BotUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KR3 Supreme BotUITests.modulemap"; sourceTree = "<group>"; };
+		DD19B9491702EF48C294F4EB6FC97498 /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
+		DF9C5F45B535B87C192510C735FAEF33 /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
+		DFA0D5E50E4D891B1887933CE00E7ECA /* Pods-KR3 Supreme BotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KR3 Supreme BotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E191911616FCA90AEFAF71F3C94B6AF6 /* Pods-KR3 Supreme BotTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KR3 Supreme BotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2001388E9728549F33B094CA664F63A /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		E59341D894BE37FDC0BD7314CF8C52FF /* Pods-KR3 Supreme Bot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KR3 Supreme Bot-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7206E7353DA4C4566CF962B28CC6706 /* RSSelectionMenuSearchDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSelectionMenuSearchDelegate.swift; path = RSSelectionMenu/RSSelectionMenu/Source/RSSelectionMenuSearchDelegate.swift; sourceTree = "<group>"; };
+		EEE2798BBF4765D7F20EFF00F3066038 /* Pods-KR3 Supreme BotUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KR3 Supreme BotUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5CA366D12D01F86C51D31274C938F6F /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
+		F884D928DF5834B3EC9A638CB988FFFE /* RSSelectionMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSelectionMenu-umbrella.h"; sourceTree = "<group>"; };
+		FA192F458DB1B6457F1FFC7A03AED4BF /* RSSelectionMenuExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSSelectionMenuExtensions.swift; path = RSSelectionMenu/RSSelectionMenu/Utilities/RSSelectionMenuExtensions.swift; sourceTree = "<group>"; };
+		FBCF0861223E788F6D1E0630C423689E /* Pods_KR3_Supreme_Bot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KR3_Supreme_Bot.framework; path = "Pods-KR3 Supreme Bot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC737C126F928DA3543C01DD34DE94E0 /* Pods_KR3_Supreme_BotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KR3_Supreme_BotTests.framework; path = "Pods-KR3 Supreme BotTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEF5CD3D04A94167867A46B6D78195F /* DataNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataNode.swift; path = Sources/DataNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C53ABC8E06380FDE31D2379122DB514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F08F03083AD948FC4F12122F36AD926 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96937ADB8D8B088C60CA38EC3C5BEDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2586626F7DA2C82C7359AC14CDF0D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC3DFEABD037A7F31799CF940380A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F26DFBE25F6475B4FC292586D91F86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF98856B8AA4420472A2704FC6B9EA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FCAEE1F9A24BFF1BDDED5FD010486A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB59352F1BBE011EBC274229D055212B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42877B862F3E2CA7799892A90069AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ECDE855CCBC0EA88A21C97635B7243 /* RSSelectionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7C5290858783EBDE7CA091B9FDC22262 /* Constants.swift */,
+				AA90638BABF4EF7607F6A3C37D53DB59 /* NSObjectExtension.swift */,
+				958E5D752FBF48F9663D93FEE0B05438 /* RSFirstRowSelection.swift */,
+				35B3D1A3F9AF4650FEDFD8C1228C802B /* RSSelectionMenuController.swift */,
+				7EF01C86ACB38B51382D75E5425D79E2 /* RSSelectionMenuDataSource.swift */,
+				3DCCA24D5839A0479425BA0814F4C3BE /* RSSelectionMenuDelegate.swift */,
+				FA192F458DB1B6457F1FFC7A03AED4BF /* RSSelectionMenuExtensions.swift */,
+				E7206E7353DA4C4566CF962B28CC6706 /* RSSelectionMenuSearchDelegate.swift */,
+				27A8D00433C68C5B49ED5FA105B52BE2 /* RSSelectionTableView.swift */,
+				447E099E6426BD1B22470A025B0DBDB3 /* Support Files */,
+			);
+			name = RSSelectionMenu;
+			path = RSSelectionMenu;
+			sourceTree = "<group>";
+		};
+		2D35D5B34D1D19AFB5877B030E3E2AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF0861223E788F6D1E0630C423689E /* Pods_KR3_Supreme_Bot.framework */,
+				FC737C126F928DA3543C01DD34DE94E0 /* Pods_KR3_Supreme_BotTests.framework */,
+				0BBF99996418230AD0101A149CFC55C3 /* Pods_KR3_Supreme_BotUITests.framework */,
+				C92E5ACD0EF6C83FA1AE2AD435399F04 /* RSSelectionMenu.framework */,
+				9D817629951B660B8279047F0554EB40 /* SwiftSoup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447E099E6426BD1B22470A025B0DBDB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE4E7EDDCA3B3CBB28EB1F627F16B19 /* Info.plist */,
+				2F233763EF8F01634126FC5018822482 /* RSSelectionMenu.modulemap */,
+				184DEABA6BF2F52252570A757A66D99C /* RSSelectionMenu.xcconfig */,
+				23FBF5E96578C1435F1AD97FDB0324CA /* RSSelectionMenu-dummy.m */,
+				D911326E37708740878B49F60D70B2F8 /* RSSelectionMenu-prefix.pch */,
+				F884D928DF5834B3EC9A638CB988FFFE /* RSSelectionMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSSelectionMenu";
+			sourceTree = "<group>";
+		};
+		55D56468C64915C70BFC78BAAEECCCC1 /* Pods-KR3 Supreme BotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B7E5ACBD244652A58A914A8DB7152 /* Info.plist */,
+				DC343C03D74A476E2C189543403833B7 /* Pods-KR3 Supreme BotUITests.modulemap */,
+				92B3210459A74B008B74A4C6E5B1571D /* Pods-KR3 Supreme BotUITests-acknowledgements.markdown */,
+				EEE2798BBF4765D7F20EFF00F3066038 /* Pods-KR3 Supreme BotUITests-acknowledgements.plist */,
+				B5F02D5D28BA1AB872AA2D726EC02938 /* Pods-KR3 Supreme BotUITests-dummy.m */,
+				903925036EEC029EC255710AE7E253B2 /* Pods-KR3 Supreme BotUITests-frameworks.sh */,
+				30DBD65B85C30E967CCAC980903FF0AD /* Pods-KR3 Supreme BotUITests-resources.sh */,
+				74E863895DCAFE1ED3CB3F078B031266 /* Pods-KR3 Supreme BotUITests-umbrella.h */,
+				DFA0D5E50E4D891B1887933CE00E7ECA /* Pods-KR3 Supreme BotUITests.debug.xcconfig */,
+				88855B19815DBFBF0C9D87900543C1AF /* Pods-KR3 Supreme BotUITests.release.xcconfig */,
+			);
+			name = "Pods-KR3 Supreme BotUITests";
+			path = "Target Support Files/Pods-KR3 Supreme BotUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A83FC9211FA69D9EECAD19CE3AAEC5C3 /* Pods */,
+				2D35D5B34D1D19AFB5877B030E3E2AED /* Products */,
+				90678B929522B3FDCCCDCD242BE7B1CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90678B929522B3FDCCCDCD242BE7B1CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF87C999D1F97FCADFADC14174605937 /* Pods-KR3 Supreme Bot */,
+				EDF6F9B2FADE4CE2F84E2D8640D005A2 /* Pods-KR3 Supreme BotTests */,
+				55D56468C64915C70BFC78BAAEECCCC1 /* Pods-KR3 Supreme BotUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91D9E02A32C9D833CF8B576777421590 /* SwiftSoup */ = {
+			isa = PBXGroup;
+			children = (
+				227FD5BE66C5CC51C00E13F96439F918 /* ArrayExt.swift */,
+				212D0B667D3EE6EB3A1FBA0EC35FA298 /* Attribute.swift */,
+				50701AEF897DBCD98C119BC994BF57F1 /* Attributes.swift */,
+				874940AFB0444A3CC2AC71960ED4F12B /* BooleanAttribute.swift */,
+				0908FE973B4ED3A8C4660E82410054D1 /* CharacterExt.swift */,
+				8D9BDCB90CAE3001BBFBFB2104844930 /* CharacterReader.swift */,
+				DD19B9491702EF48C294F4EB6FC97498 /* Cleaner.swift */,
+				AC899C6A3C82C012E212C17328ADEB82 /* Collector.swift */,
+				D80FA958F7D3A0618FB2A795A69BBD1F /* CombiningEvaluator.swift */,
+				54E66C2145E868CD97C69FC881B5CE3A /* Comment.swift */,
+				C0E427969F5D6F34AB8A442DA12FFF40 /* Connection.swift */,
+				FEEF5CD3D04A94167867A46B6D78195F /* DataNode.swift */,
+				69978A0C2996497BAB53B65534A458F2 /* DataUtil.swift */,
+				D85DBBCC333C32FA1A43EE44BB8E8512 /* Document.swift */,
+				58B80D09E6F4251F773314886E2CCB56 /* DocumentType.swift */,
+				D43D12E5B1BC46AFB61928355F30BEB1 /* Element.swift */,
+				5C1EDBBCF6FDC6C631924C6B03F96457 /* Elements.swift */,
+				23A9048BF37A2B8C3806FBD850D49D29 /* Entities.swift */,
+				D1C919A0864B0DDE5F737FDD396E1A4F /* Evaluator.swift */,
+				57B4B6A64EE0A1D3AD50F9C1B064AF31 /* Exception.swift */,
+				F5CA366D12D01F86C51D31274C938F6F /* FormElement.swift */,
+				8D94AF778626D1BE27CFBB95F5A2E4A9 /* HtmlTreeBuilder.swift */,
+				04AD2710DA37037B903357DE4A5AB7D1 /* HtmlTreeBuilderState.swift */,
+				A31515F3649214B70E24AE62C589A2B5 /* HttpStatusException.swift */,
+				E2001388E9728549F33B094CA664F63A /* Node.swift */,
+				A61C28D567C36E5FB9317A4EDD1D03FC /* NodeTraversor.swift */,
+				054E71FFBAF0F16F2A08954E228182DD /* NodeVisitor.swift */,
+				4F6942F28DD3AF4FA4259E9A4B3A6F18 /* OrderedDictionary.swift */,
+				2445B0D95CCFD9B252DA15F875C5A74E /* OrderedSet.swift */,
+				DF9C5F45B535B87C192510C735FAEF33 /* ParseError.swift */,
+				D0C04E0B56C826A46E7479EF4F0EB664 /* ParseErrorList.swift */,
+				8BA9393E61A60623238893A7B85CABC9 /* Parser.swift */,
+				6D89701D91DC5FE5991B1121CFADBCD5 /* ParseSettings.swift */,
+				463DBBAAA564058999C2F1721B01F255 /* Pattern.swift */,
+				217555FA2CFDD7109A9D00D8404AF3EC /* QueryParser.swift */,
+				215AA6A878820487883FF447C884F304 /* Selector.swift */,
+				A571BE9CA1E867CCCD30BB0BF7787328 /* SerializationException.swift */,
+				910E2D33AE90358B04EEC3326F5F063C /* SimpleDictionary.swift */,
+				26B6C27F65C1029A6F50CC2D48A3D153 /* StreamReader.swift */,
+				54CCFECEFA711FBA728F57FE76A1D7D3 /* String.swift */,
+				152026F39CD9D2DF01980DA1D8A010CC /* StringBuilder.swift */,
+				8C7810B5D19465566D5393ED98C1F3AA /* StringUtil.swift */,
+				A4B4DFA64BD12BEEA1666E281722DAED /* StructuralEvaluator.swift */,
+				55A9E239DB2E377C476B19436CC52035 /* SwiftSoup.swift */,
+				15907C61166DB404169A6435478D08F4 /* Tag.swift */,
+				0F5B8C897B600A9872C77534B6D60CA7 /* TextNode.swift */,
+				2D96F63C3EE8E07972B2596D4C3DD6E1 /* Token.swift */,
+				735666E378ECCDDE8EE874C4BA618A65 /* Tokeniser.swift */,
+				B4E8AF083482E266EEA5711FB7E55A2E /* TokeniserState.swift */,
+				60E21261205DB5664947042BDB0E14C0 /* TokenQueue.swift */,
+				9EE4E29679BA0528E01EF0F0C4F29EFC /* TreeBuilder.swift */,
+				B9C7178282F3B04E2EAE6125E9B22B71 /* UnicodeScalar.swift */,
+				8E8916BA747C1A217D1C3F947748F4BD /* Validate.swift */,
+				A66915F2523052C2840D1B5E3012F146 /* Whitelist.swift */,
+				948D7BAE9D947A5530CB8229B8D54818 /* XmlDeclaration.swift */,
+				3A643611D0749867C47AB0F908182650 /* XmlTreeBuilder.swift */,
+				ADEED24C01180BFA10E3EB6133CC8522 /* Support Files */,
+			);
+			name = SwiftSoup;
+			path = SwiftSoup;
+			sourceTree = "<group>";
+		};
+		A83FC9211FA69D9EECAD19CE3AAEC5C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04ECDE855CCBC0EA88A21C97635B7243 /* RSSelectionMenu */,
+				91D9E02A32C9D833CF8B576777421590 /* SwiftSoup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADEED24C01180BFA10E3EB6133CC8522 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59807502C9DC3493C0293E57730A6C6C /* Info.plist */,
+				95D2F22D251E1C24DEF1EC5A4AA9ED8C /* SwiftSoup.modulemap */,
+				B9FCD5CB3692054C11957B5841980DDB /* SwiftSoup.xcconfig */,
+				6ACF3AE976D4B64ECCD70A6B4A4C37BC /* SwiftSoup-dummy.m */,
+				3E28E90837ED543CC5B53FBC26DEC2F0 /* SwiftSoup-prefix.pch */,
+				A3FF716DCE6511EDCE2D682558472208 /* SwiftSoup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSoup";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDF6F9B2FADE4CE2F84E2D8640D005A2 /* Pods-KR3 Supreme BotTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B87A5B9A0D0F3F43441D074994A702 /* Info.plist */,
+				048009490557A7196A2E07B3BCD88BFC /* Pods-KR3 Supreme BotTests.modulemap */,
+				E191911616FCA90AEFAF71F3C94B6AF6 /* Pods-KR3 Supreme BotTests-acknowledgements.markdown */,
+				8E1180E99251918F228634557EF0B811 /* Pods-KR3 Supreme BotTests-acknowledgements.plist */,
+				A3A7B74DBD5D0353123956E88FB64352 /* Pods-KR3 Supreme BotTests-dummy.m */,
+				47807026AC7340265BC39665B8FAE022 /* Pods-KR3 Supreme BotTests-frameworks.sh */,
+				86CC749A11F064DF6F935C32E1A21892 /* Pods-KR3 Supreme BotTests-resources.sh */,
+				1B6C01BBA173586C052879959DCDE6F5 /* Pods-KR3 Supreme BotTests-umbrella.h */,
+				82386E777A4F07B9F12C0DB833F70C39 /* Pods-KR3 Supreme BotTests.debug.xcconfig */,
+				48624AE942C5DC992ED4367A81CC88BF /* Pods-KR3 Supreme BotTests.release.xcconfig */,
+			);
+			name = "Pods-KR3 Supreme BotTests";
+			path = "Target Support Files/Pods-KR3 Supreme BotTests";
+			sourceTree = "<group>";
+		};
+		EF87C999D1F97FCADFADC14174605937 /* Pods-KR3 Supreme Bot */ = {
+			isa = PBXGroup;
+			children = (
+				C4D9F72E307C61EC57C9F87781BC5C3B /* Info.plist */,
+				88936E7C14F8F38D52B7BB76319761FC /* Pods-KR3 Supreme Bot.modulemap */,
+				32BC25A85823D4E40A3A92049C6918E2 /* Pods-KR3 Supreme Bot-acknowledgements.markdown */,
+				E59341D894BE37FDC0BD7314CF8C52FF /* Pods-KR3 Supreme Bot-acknowledgements.plist */,
+				73EBC8865FE51E9EC4F105896BA802F7 /* Pods-KR3 Supreme Bot-dummy.m */,
+				1BCE68B14B4FB9DFB285A4BDEB0E88DF /* Pods-KR3 Supreme Bot-frameworks.sh */,
+				11840EBE61135787AF1FF885FD600BC7 /* Pods-KR3 Supreme Bot-resources.sh */,
+				CFB6FC05B0A52267B5C88921F4C27DE3 /* Pods-KR3 Supreme Bot-umbrella.h */,
+				96351465E11BB3ABE0A631CC102EEBAD /* Pods-KR3 Supreme Bot.debug.xcconfig */,
+				3BC77DD0909ADCC7F9A80E598D1EB1E4 /* Pods-KR3 Supreme Bot.release.xcconfig */,
+			);
+			name = "Pods-KR3 Supreme Bot";
+			path = "Target Support Files/Pods-KR3 Supreme Bot";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		211C3958D5426516A51D5C3C1B25C292 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD3936E064FEFD87166BC47D2A990B2 /* Pods-KR3 Supreme Bot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0A5EFF38BB46D65B6114EF2A61D4E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE8321F5BB4C9D59483FA2E1B9EA54A /* SwiftSoup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B15579BD06E425561CAB9E40F9B0CB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F834CC92C3F49AF13B5558E8F97174 /* Pods-KR3 Supreme BotTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0EEE6FEF191A8B1708883539135B67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CCEAB80E225075EEA1E986C0D4A070 /* RSSelectionMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0F4E8CF830631DBB6619FC4DCCA20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0527D5C14BF742E1D6783B400A3765ED /* Pods-KR3 Supreme BotUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C1A0200C451401F8767B081ECF959DB /* Pods-KR3 Supreme BotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB5D1F28054FD14C9FC920C3E87CB47 /* Build configuration list for PBXNativeTarget "Pods-KR3 Supreme BotUITests" */;
+			buildPhases = (
+				9562F7452C63331D5C556AD7937AA00E /* Sources */,
+				3C53ABC8E06380FDE31D2379122DB514 /* Frameworks */,
+				ABC0F4E8CF830631DBB6619FC4DCCA20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0D6E721F6A54AEBC7F0F5DDAF2D499 /* PBXTargetDependency */,
+				CF398BCE5769A56BC490F5CE19C07013 /* PBXTargetDependency */,
+			);
+			name = "Pods-KR3 Supreme BotUITests";
+			productName = "Pods-KR3 Supreme BotUITests";
+			productReference = 0BBF99996418230AD0101A149CFC55C3 /* Pods_KR3_Supreme_BotUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42DBFB5435150B5562946360EDF541B0 /* RSSelectionMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A7BEDDC1DCAB986688AA7819D08315 /* Build configuration list for PBXNativeTarget "RSSelectionMenu" */;
+			buildPhases = (
+				98FE56D8F68172F4E3A4DC45344601B0 /* Sources */,
+				96937ADB8D8B088C60CA38EC3C5BEDAE /* Frameworks */,
+				AB0EEE6FEF191A8B1708883539135B67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSelectionMenu;
+			productName = RSSelectionMenu;
+			productReference = C92E5ACD0EF6C83FA1AE2AD435399F04 /* RSSelectionMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		723A475C6C1459837745B88A26B4BA4E /* SwiftSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF86AA6EA314DC15F83D6B0F90353E46 /* Build configuration list for PBXNativeTarget "SwiftSoup" */;
+			buildPhases = (
+				B4AFC69934FCD4E5EB5ED6C89B5BD146 /* Sources */,
+				EF98856B8AA4420472A2704FC6B9EA8B /* Frameworks */,
+				4B0A5EFF38BB46D65B6114EF2A61D4E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSoup;
+			productName = SwiftSoup;
+			productReference = 9D817629951B660B8279047F0554EB40 /* SwiftSoup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		725DEB0E8832D23BD8B83E99D402804A /* Pods-KR3 Supreme BotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745BF035854DEDA3BAC336A5A1654B93 /* Build configuration list for PBXNativeTarget "Pods-KR3 Supreme BotTests" */;
+			buildPhases = (
+				8C5B77181B61D2C037D2AD0BEEA70767 /* Sources */,
+				DCC3DFEABD037A7F31799CF940380A19 /* Frameworks */,
+				8B15579BD06E425561CAB9E40F9B0CB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1762A1303466E307CB29CF16A986613 /* PBXTargetDependency */,
+				11A76CA1AD41656B67434AA1BD0C7DBF /* PBXTargetDependency */,
+			);
+			name = "Pods-KR3 Supreme BotTests";
+			productName = "Pods-KR3 Supreme BotTests";
+			productReference = FC737C126F928DA3543C01DD34DE94E0 /* Pods_KR3_Supreme_BotTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D980E2EF63838F05A53C66E861C6815 /* Pods-KR3 Supreme Bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A1416446A96758FDE8A444569971CB /* Build configuration list for PBXNativeTarget "Pods-KR3 Supreme Bot" */;
+			buildPhases = (
+				292DD242E195F9CF64E2504EA7464C8B /* Sources */,
+				FB59352F1BBE011EBC274229D055212B /* Frameworks */,
+				211C3958D5426516A51D5C3C1B25C292 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69140A1304C1E344F925311C6A400434 /* PBXTargetDependency */,
+				982CF7B6BDB217E8912F2EC594E6BE0F /* PBXTargetDependency */,
+			);
+			name = "Pods-KR3 Supreme Bot";
+			productName = "Pods-KR3 Supreme Bot";
+			productReference = FBCF0861223E788F6D1E0630C423689E /* Pods_KR3_Supreme_Bot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D35D5B34D1D19AFB5877B030E3E2AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D980E2EF63838F05A53C66E861C6815 /* Pods-KR3 Supreme Bot */,
+				725DEB0E8832D23BD8B83E99D402804A /* Pods-KR3 Supreme BotTests */,
+				3C1A0200C451401F8767B081ECF959DB /* Pods-KR3 Supreme BotUITests */,
+				42DBFB5435150B5562946360EDF541B0 /* RSSelectionMenu */,
+				723A475C6C1459837745B88A26B4BA4E /* SwiftSoup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292DD242E195F9CF64E2504EA7464C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8354B5BEC38F98B2F53F73B4B1D4CCB3 /* Pods-KR3 Supreme Bot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5B77181B61D2C037D2AD0BEEA70767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971ADF08159B4A86BB4A0859B68F597B /* Pods-KR3 Supreme BotTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9562F7452C63331D5C556AD7937AA00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FFC437BA668E6ADDA41062EA8834B6 /* Pods-KR3 Supreme BotUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FE56D8F68172F4E3A4DC45344601B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC6BFAC6F45D978E6062024C809BDE3 /* Constants.swift in Sources */,
+				85074CFC2B34E576AC014CBE96BB06F7 /* NSObjectExtension.swift in Sources */,
+				2FB1770E39CFE668A5A716ED44E8E6EC /* RSFirstRowSelection.swift in Sources */,
+				0459AD92E7900D7CC1E34BB97F99DE50 /* RSSelectionMenu-dummy.m in Sources */,
+				EB011FC08F4A6F458CFD8C81D6B767A7 /* RSSelectionMenuController.swift in Sources */,
+				A132823F97BDBEAB8AEA528B60A66B6E /* RSSelectionMenuDataSource.swift in Sources */,
+				F63BE3344B588FE21E24E03C1E995B8B /* RSSelectionMenuDelegate.swift in Sources */,
+				8B6E9FA632C48252CD100C698E0F60A1 /* RSSelectionMenuExtensions.swift in Sources */,
+				CFD636D24842C44F9DC26E492494D045 /* RSSelectionMenuSearchDelegate.swift in Sources */,
+				A79DA2B242FD7022F95FB16BD142A0C2 /* RSSelectionTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4AFC69934FCD4E5EB5ED6C89B5BD146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAFD02C6F01A3D2374A4ADB287D8224 /* ArrayExt.swift in Sources */,
+				80E1E63E09EDCCEE08CCC76643C05CD3 /* Attribute.swift in Sources */,
+				273F8162B042C4BFFDBFEF03A8630037 /* Attributes.swift in Sources */,
+				9477CFAD0DAE9B0542C13DBA3E9FA5CE /* BooleanAttribute.swift in Sources */,
+				34C761540526DE0F5AC83D32CE2F9D19 /* CharacterExt.swift in Sources */,
+				61D217B03611CE728B0ACDBFA2EF0672 /* CharacterReader.swift in Sources */,
+				FB507B324F53C4BC925DDA9FD8DDF1F7 /* Cleaner.swift in Sources */,
+				44CF14C250D358C6A3CE0995CBF37B6B /* Collector.swift in Sources */,
+				60190E467A6AFCD2F9768D6CEE0FE128 /* CombiningEvaluator.swift in Sources */,
+				26BA8E8B8BC085EDC49BEEBABBBDB5F4 /* Comment.swift in Sources */,
+				40A9CEA96DEDB8690D58740020403835 /* Connection.swift in Sources */,
+				F557858DBCCFB9A485981023DAB10828 /* DataNode.swift in Sources */,
+				E96229CF4D78225C485774AD54A2D81E /* DataUtil.swift in Sources */,
+				1FEEC2A925A3CEB0CE9794F4986E384B /* Document.swift in Sources */,
+				E57A0617CDBFC24426259EAF50A195AA /* DocumentType.swift in Sources */,
+				E6424F7C15529BA5DB299DE5897B2031 /* Element.swift in Sources */,
+				9898C58F2BC61152C27615166586B22B /* Elements.swift in Sources */,
+				B01C7BBBBE70540464CCF37047A8E84C /* Entities.swift in Sources */,
+				3A84F12B3703D88B8969D9A02EAD34F5 /* Evaluator.swift in Sources */,
+				B148E4ECD46C81FB97F301BDB4D4BB3C /* Exception.swift in Sources */,
+				36CE8A19AEA3EE60769B69B4CD0836AA /* FormElement.swift in Sources */,
+				F3FE711526F2D74C28BD81A348229DCB /* HtmlTreeBuilder.swift in Sources */,
+				6C531A91ECB6C954192773C24431EA5D /* HtmlTreeBuilderState.swift in Sources */,
+				A5607B1EB27629E01570526EBADC5F61 /* HttpStatusException.swift in Sources */,
+				CF8555431738BD333C04BCCBA304E0E1 /* Node.swift in Sources */,
+				02D7C3F7CBFED410872BDE39668B7C2B /* NodeTraversor.swift in Sources */,
+				1A5AE65DD566CF28E7224CAAB3BDB30D /* NodeVisitor.swift in Sources */,
+				E8D2D7F9D422DE7907A21F1BAAF0DF0A /* OrderedDictionary.swift in Sources */,
+				C0031426A55B5601792A9F74E5CA68BC /* OrderedSet.swift in Sources */,
+				44DB7CF5767819FF71E9E89DD91BF873 /* ParseError.swift in Sources */,
+				0637C9879E18D489A4A2DADAAF6F9DBD /* ParseErrorList.swift in Sources */,
+				71E08537A5AFA7441854AB2CAFB3E70E /* Parser.swift in Sources */,
+				EBCCDFBF82B275EA0461643E076FF058 /* ParseSettings.swift in Sources */,
+				8B6DD566D72163F2D3FC7824FA473BA1 /* Pattern.swift in Sources */,
+				0B10E8B75B73F182F9EFECC702BC1BD5 /* QueryParser.swift in Sources */,
+				86C0CBFF0AB3FC5298EFAC5355EF04A1 /* Selector.swift in Sources */,
+				B7B0F12B629B2071060FDB4BAA888A49 /* SerializationException.swift in Sources */,
+				1A007E6C800EFF3EA0251BF9D41A2811 /* SimpleDictionary.swift in Sources */,
+				EC89C0EF10462B198804A02E636ECA9D /* StreamReader.swift in Sources */,
+				83D3D4676BEED6ECD06913D2766E4620 /* String.swift in Sources */,
+				E49FECFA2FFC02162F01730FA1664162 /* StringBuilder.swift in Sources */,
+				BEC31BA3212EC92703D9BBCE28F9F6E6 /* StringUtil.swift in Sources */,
+				5118569F62D67EA0CE8E9B648B9AC279 /* StructuralEvaluator.swift in Sources */,
+				13A6FEAFBD53229AF288FC19A7536DE3 /* SwiftSoup-dummy.m in Sources */,
+				B8BA8FB966A471936D35D5CA94BF4073 /* SwiftSoup.swift in Sources */,
+				8AED7AE2DD8B0DC3C93877FD410F6A42 /* Tag.swift in Sources */,
+				DF3B9AE5540A096216D588BE5034EC54 /* TextNode.swift in Sources */,
+				195F7CE17D3A9D3FD03E02E05BF575C7 /* Token.swift in Sources */,
+				0E24753FE2762774ABCCC0BF04BFA87A /* Tokeniser.swift in Sources */,
+				8EFB84F7844CC992769FF481C4C848C1 /* TokeniserState.swift in Sources */,
+				5314D4713CA02D4AECB10C9431DE48A5 /* TokenQueue.swift in Sources */,
+				73310436FB23D79C724CE5E44326A720 /* TreeBuilder.swift in Sources */,
+				691616A9A346375C740268D33C8C8E88 /* UnicodeScalar.swift in Sources */,
+				6D95736644E3242D346C570AFFE510BA /* Validate.swift in Sources */,
+				FE496A4D540572502B33D13712FF6C10 /* Whitelist.swift in Sources */,
+				D8EF33E3CD5F829882037034CB534463 /* XmlDeclaration.swift in Sources */,
+				8121420E11C9AA29E8CAC8FFD3267081 /* XmlTreeBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A76CA1AD41656B67434AA1BD0C7DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 723A475C6C1459837745B88A26B4BA4E /* SwiftSoup */;
+			targetProxy = A4ED16C7E2FB114CC4C164EE3C837A42 /* PBXContainerItemProxy */;
+		};
+		69140A1304C1E344F925311C6A400434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSSelectionMenu;
+			target = 42DBFB5435150B5562946360EDF541B0 /* RSSelectionMenu */;
+			targetProxy = 41895E2AD7E7D23F69CA6A16BC1037DD /* PBXContainerItemProxy */;
+		};
+		982CF7B6BDB217E8912F2EC594E6BE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 723A475C6C1459837745B88A26B4BA4E /* SwiftSoup */;
+			targetProxy = DD8F6F35DA0505EB3A8CAB55101E2839 /* PBXContainerItemProxy */;
+		};
+		CF398BCE5769A56BC490F5CE19C07013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 723A475C6C1459837745B88A26B4BA4E /* SwiftSoup */;
+			targetProxy = D002272A4C9D87365FC08EEF9AD71074 /* PBXContainerItemProxy */;
+		};
+		D1762A1303466E307CB29CF16A986613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSSelectionMenu;
+			target = 42DBFB5435150B5562946360EDF541B0 /* RSSelectionMenu */;
+			targetProxy = 318DA3E4FFE625F891EDD43BDA79728A /* PBXContainerItemProxy */;
+		};
+		ED0D6E721F6A54AEBC7F0F5DDAF2D499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSSelectionMenu;
+			target = 42DBFB5435150B5562946360EDF541B0 /* RSSelectionMenu */;
+			targetProxy = 7D55D907942429327D5B91E0FD4F5974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DEF63AA810F7FE935EE01EAB5591AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FCD5CB3692054C11957B5841980DDB /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13A95306D85E4471AB6BE665B012E60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		172E1CF680BE0F1ADED9966841B47EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88855B19815DBFBF0C9D87900543C1AF /* Pods-KR3 Supreme BotUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KR3 Supreme BotUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KR3_Supreme_BotUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DB4C66B1FD2A18AEBDD5C18E6CA7B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FCD5CB3692054C11957B5841980DDB /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		306C121DFB399A3BE5DDBD137A8AF12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96351465E11BB3ABE0A631CC102EEBAD /* Pods-KR3 Supreme Bot.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KR3 Supreme Bot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KR3_Supreme_Bot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CA3D7C2B975107210169AECC8D7471C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA0D5E50E4D891B1887933CE00E7ECA /* Pods-KR3 Supreme BotUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KR3 Supreme BotUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KR3 Supreme BotUITests/Pods-KR3 Supreme BotUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KR3_Supreme_BotUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8106F145716BDFA2BAB8D17D70081945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82386E777A4F07B9F12C0DB833F70C39 /* Pods-KR3 Supreme BotTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KR3 Supreme BotTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KR3_Supreme_BotTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E8333274F4AB64785B04AB5B2A37231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FA7E9E8AB19941480F8E89B8CA7EAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184DEABA6BF2F52252570A757A66D99C /* RSSelectionMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSSelectionMenu/RSSelectionMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSSelectionMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSSelectionMenu/RSSelectionMenu.modulemap";
+				PRODUCT_NAME = RSSelectionMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A22DE03E29B6A5EDB5ED9874FDABA41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48624AE942C5DC992ED4367A81CC88BF /* Pods-KR3 Supreme BotTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KR3 Supreme BotTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KR3 Supreme BotTests/Pods-KR3 Supreme BotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KR3_Supreme_BotTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D828BFFC863496F2F470B5FA413305C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184DEABA6BF2F52252570A757A66D99C /* RSSelectionMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSSelectionMenu/RSSelectionMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSSelectionMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSSelectionMenu/RSSelectionMenu.modulemap";
+				PRODUCT_NAME = RSSelectionMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E23A0D62E5A4E2560D37C4B11A5BABC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC77DD0909ADCC7F9A80E598D1EB1E4 /* Pods-KR3 Supreme Bot.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KR3 Supreme Bot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KR3 Supreme Bot/Pods-KR3 Supreme Bot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KR3_Supreme_Bot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A95306D85E4471AB6BE665B012E60A /* Debug */,
+				8E8333274F4AB64785B04AB5B2A37231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32A1416446A96758FDE8A444569971CB /* Build configuration list for PBXNativeTarget "Pods-KR3 Supreme Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306C121DFB399A3BE5DDBD137A8AF12A /* Debug */,
+				E23A0D62E5A4E2560D37C4B11A5BABC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB5D1F28054FD14C9FC920C3E87CB47 /* Build configuration list for PBXNativeTarget "Pods-KR3 Supreme BotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA3D7C2B975107210169AECC8D7471C /* Debug */,
+				172E1CF680BE0F1ADED9966841B47EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745BF035854DEDA3BAC336A5A1654B93 /* Build configuration list for PBXNativeTarget "Pods-KR3 Supreme BotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8106F145716BDFA2BAB8D17D70081945 /* Debug */,
+				A22DE03E29B6A5EDB5ED9874FDABA41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A7BEDDC1DCAB986688AA7819D08315 /* Build configuration list for PBXNativeTarget "RSSelectionMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D828BFFC863496F2F470B5FA413305C6 /* Debug */,
+				9FA7E9E8AB19941480F8E89B8CA7EAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF86AA6EA314DC15F83D6B0F90353E46 /* Build configuration list for PBXNativeTarget "SwiftSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB4C66B1FD2A18AEBDD5C18E6CA7B78 /* Debug */,
+				0DEF63AA810F7FE935EE01EAB5591AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
